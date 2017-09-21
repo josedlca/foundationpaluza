@@ -1,5 +1,5 @@
 body{
-    background-color: #ee3f54;
+    background-color: black;
 }
 h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
     font-family: 'Bree Serif',serif;
@@ -114,3 +114,26 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 #suscribete-container h4 small{
     color:#ffcddc;
 }
+#suscribete-container .error-container{
+    font-family:'Bree Serif', serif;
+}
+.is-invalid-input:not(:focus){
+    background-color: rgb(255, 228 , 228);
+    border-color:rgb(255, 228, 228);
+}
+.data-sticky{
+    width:100%;
+    z-index:100;
+}
+ #offCanvas,
+ #offCanvas li a{
+     background-color: black;
+     color:white;
+     font-family:'Bree Serif', serif;
+ }
+#offCanvas .is-drilldown-submenu-parent> a::after{
+    border-color:transparent transparent transparent white;
+} 
+#offCanvas .js-drilldown-back> a::before{
+    border-color:transparent white transparent transparent;
+} 
